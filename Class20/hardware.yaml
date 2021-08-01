@@ -1,6 +1,6 @@
 ---
 - name: check the cpu's and install the necessary packages
-  hosts: node1
+  hosts: docker
   tasks:
    - name: check 2 cpu's are there or not ?
      debug:
